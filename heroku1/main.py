@@ -1,10 +1,9 @@
-from flask import Flask, render_template, url_for
-import random
-from models import User, db
+from flask import Flask, render_template, 
+
 
 
 app = Flask(__name__)
-db.create_all()
+
 
 
 @app.route("/")
