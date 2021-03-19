@@ -15,8 +15,8 @@ def index():
 def login():
     return render_template("login.html")
 
-@app.route("/login")
-def login():
+@app.route("/prijava")
+def prijava():
     return render_template("prijava.html")
 
 
