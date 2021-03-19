@@ -15,9 +15,9 @@ def index():
 def login():
     return render_template("login.html")
 
-@app.route("/prijava")
-def prijava():
-    return render_template("prijava.html")
+@app.route("/create account")
+def createaccount():
+    return render_template("create account.html")
 
 
 if __name__ == "__main__":
